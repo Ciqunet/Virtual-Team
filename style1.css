@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    font-family: "Sen", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.gmail{
+    position:absolute;
+    top: 50px;
+    width: 700px;
+    height: 500px;
+    z-index: 0;
+}
+
+.gmaile{
+    font-family: "Sen", sans-serif;
+    position: absolute;
+    width: 500px;
+    height: 135px;
+    left: 0px;
+    top: 50px;
+    left: 180px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 150%;
+    color: lawngreen;
+    z-index: 1;
+}
+
+.svazi{
+    color: grey;
+    top: 100px;
+    left: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+}
