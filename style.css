@@ -95,4 +95,11 @@ header{
     width: 600px;
     height: 400px;
 }
-   
+
+.man{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    left: 700px;
+    top: 130px;
+}
