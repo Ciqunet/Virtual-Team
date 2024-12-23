@@ -23,11 +23,10 @@ h1, h2, h3, h4, h5, h6{
     width: 500px;
     height: 135px;
     left: 0px;
-    top: 50px;
-    left: 180px;
-    font-family: 'Sen';
+    top: 40px;
+    left: 150px;
+    font-family: "Permanent Marker", serif;
     font-style: normal;
-    font-weight: 1000;
     font-size: 50px;
     line-height: 150%;
     color: lawngreen;
@@ -36,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 
 .svazi{
     color: grey;
-    top: 100px;
+    top: 460px;
     left: 10px;
     font-family: sans-serif;
     font-style: normal;
