@@ -1,0 +1,134 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    height: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.gmail{
+    position:absolute;
+    top: 50px;
+    width: 700px;
+    height: 500px;
+    z-index: 0;
+}
+
+.gmaile{
+    position: absolute;
+    width: 500px;
+    height: 135px;
+    left: 0px;
+    top: 40px;
+    left: 150px;
+    font-family: "Permanent Marker", serif;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 150%;
+    color: lawngreen;
+    z-index: 1;
+}
+
+.svazi{
+    color: grey;
+    top: 460px;
+    left: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+}
+
+.problem{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 720px;
+    bottom: 190px;
+}
+
+.idk{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    color: grey;
+    top: 740px;
+    left: 45px;
+}
+
+.a{
+    position: relative;
+    top: 950px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: lime;
+    box-shadow: -6px -6px 10px #efefee,
+                6px 6px 10px #f123f1;
+}
+
+.a:hover{
+    box-shadow: 5px 5px 5px #efefee,
+    -5px -5px 5px #f123f1;
+}
+
+.inputs{
+    position: relative;
+    color: #fff;
+    margin-left: 3%;
+    left: 700px;
+    top: 450px;
+    width: 500px;
+    height: 300px;
+}
+
+.inputs div{
+    margin-bottom: 40px;
+}
+
+.inputs label{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.inputs input{
+    background-color: #181823;
+    color: #fff;
+    width: 526px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.inputs button{
+    position: relative;
+    top: 20px;
+    left: 370px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: lime;
+    box-shadow: -6px -6px 10px #d81,
+                6px 6px 10px #c70f77;
+}
+
+.inputs button:hover{
+    box-shadow: 5px 5px 5px #d81,
+    -5px -5px 5px #c31276;
+}

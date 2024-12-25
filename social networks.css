@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    height: 1100px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+div img{
+    width: 200px;
+    height: 200px;
+}
+.as{
+    display: inline;
+}
+.right{
+    margin-left: 1000px;
+    width: 200px;
+    height: 200px;
+}
+.rightz{
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+.rifhtx{
+    margin-top: 100px;
+}
+.a{
+    position: relative;
+    text-decoration: none;
+    bottom: 250px;
+    left: 650px;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: lime;
+    box-shadow: -6px -6px 10px #efefee,
+                6px 6px 10px #f123f1;
+}
+
+.a:hover{
+    box-shadow: 5px 5px 5px #efefee,
+    -5px -5px 5px #f123f1;
+}
